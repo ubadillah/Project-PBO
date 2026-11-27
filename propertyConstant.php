@@ -2,7 +2,7 @@
 
 namespace Pbo\Marketplace;
 
-class product {
+trait product {
 
     //property
     public string $kode;
@@ -42,7 +42,7 @@ class product {
         $this->stok = $stok;
         return $this;
     }
-
+        
     //getter
     public function getKode(){
         return $this->kode;
@@ -70,3 +70,4 @@ class product {
     }
 }    
 
+        
